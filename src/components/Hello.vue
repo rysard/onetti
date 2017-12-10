@@ -1,6 +1,8 @@
 <template>
   <div class="hello">
+      <img style="width:40%;height:20%" src="~assets/wait.jpg" alt="Book and glasses">
     <h1>Project Onetti</h1>
+    <p>Under construction</p>
   </div>
 </template>
 
@@ -11,5 +13,9 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style lang="stylus">
+<style scoped>
+.hello{
+    color: #757575;
+    text-align: center;
+}
 </style>
